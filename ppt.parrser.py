@@ -7,7 +7,7 @@ app = Flask(__name__)
 @app.route('/')
 def index():
     # Load the PowerPoint file
-    prs = Presentation('example.pptx')
+    prs = Presentation('marvel.pptx')
 
     # Extract text from each slide
     text = []
